@@ -88,8 +88,7 @@ h6 {
     .col-sm-12 {
         float: left;
         border: 1px solid black;
-        width: 95%;
-        margin-right: 2.5%;
-        margin-bottom: 3.5%;
+        width: 75%;
+        margin: 0 12.5% 3.5% 12.5%;
     }
 }
