@@ -1,1 +1,58 @@
+nav {
+    border-bottom: 1px solid #000000;
+    background-color: #ffe6ff;
+}
 
+.navbar-brand {
+    margin-left: 5%;
+}
+
+.navbar-nav {
+    margin: 0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000 !important;
+}
+
+li {
+    border-top: 1px solid #000000;
+}
+
+.active {
+    background-color: #ffb3ff;
+}
+
+button {
+    margin-right: 5%;
+}
+
+button:hover {
+    border: 1px solid #000000 !important;
+}
+
+h2 {
+    margin-top: 2.5%;
+}
+
+#big-div {
+    background-color: #f0f8ff;
+    width: 95%;
+    margin: 2.5% auto 2.5% auto;
+    padding: 1.5%;
+}
+
+@media (max-width: 767px) {
+    #sushi-item {
+        padding-bottom: 0 !important;
+    }
+
+    #entire-navbar {
+        margin-top: 1.5%;
+    }
+
+    #big-div {
+        width: 70%;
+        margin: 2.5% auto 2.5% auto;
+    }
+}
